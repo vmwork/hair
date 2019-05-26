@@ -1,0 +1,139 @@
+*{
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+
+}
+body{
+	
+	padding: 0;
+	width: 100%;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ededed;
+}
+.main-header{
+width: 85%;
+}
+.main-header ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	color: #8a8a8a;
+	background-color: #f4f3ee;
+	padding: 10px;
+	line-height: 1.4;
+	font-size: 12px;
+	font-weight: bold;
+	}
+.main-header li{
+margin: 0 20px;
+	}
+.main-header li:nth-child(2),
+.main-header li:nth-child(3){
+display: none;
+	}
+
+.main-header p{
+text-align: center;
+padding: 20px;
+background-color: #ffffff;
+}
+.main-content {
+	width: 85%;
+	text-align: center;
+	padding-top: 35px;
+	background-color: #f4f3ee;
+}
+.main-content h1 {
+	font-size: 36px;
+	line-height: 1.15;
+	font-weight: 400;
+	font-family: 'PT Serif', serif;
+}
+.main-content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 16.8px;
+	color: #b4b4b4;
+	margin-top: 20px;
+	font-weight: 400; 
+}
+.main-content p + p {
+	font-size: 12px;
+	line-height: 14.4px;
+	color: #b4b4b4;
+	margin-top: 20px;
+	font-weight: 700;
+}
+.main-content img{
+  width: 94%;
+  height: auto;
+	}
+.main-content--flex{
+	display: flex;
+	flex-direction: column; 
+	background-color: #ffffff;
+}
+.main-content--flex a {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	background-color: #cd627d;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 25px auto auto auto;
+	font-weight: 700;
+	height: 32px;
+	width: 236px; 
+	padding-top: 18px;
+}
+.main-content--flex img + img {
+	margin-top: 40px;
+	width: 111px;
+	margin-bottom: -10px;
+	
+}
+.main-content--flex p{
+font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	line-height: 14.4px;
+	color: #c6c6c6;
+	margin-top: 20px;
+	font-weight: 700; 	
+}
+.main-content--line{
+	margin-top: 30px;
+	height: 10px;
+	width: 888px;
+	box-sizing: border-box;
+	border-top: 1px solid #c6c6c6;
+}
+
+@media screen and (max-width: 768px) {
+.main-header li:first-child,
+.main-header li:last-child,
+.main-header li:nth-child(4){
+display: none;
+}
+.main-header li:nth-child(2),
+.main-header li:nth-child(3){
+display: block;
+	}
+	.main-header li{
+margin: 0 0;
+color: #b4b4b4;
+	}
+.main-header{
+width: 75%;
+}
+.main-header img{
+	height: 26px;
+	width: 51px;
+}
+
+}
+
