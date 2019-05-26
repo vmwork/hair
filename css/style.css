@@ -92,11 +92,18 @@ background-color: #f4f3ee;
 	width: 236px; 
 	padding-top: 18px;
 }
-.main-content--flex img + img {
+.main-content--flex a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+.contanier{
+	background-color: #ffffff;
+	width: 100%;
+}
+.contanier .stars {
 	margin-top: 40px;
 	width: 111px;
 	margin-bottom: -10px;
-	
 }
 .main-content--flex p{
 font-family: 'Lato', sans-serif;
