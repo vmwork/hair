@@ -120,6 +120,42 @@ font-family: 'Lato', sans-serif;
 	box-sizing: border-box;
 	border-top: 1px solid #c6c6c6;
 }
+.main-advantages {
+	width: 85%;
+	text-align: left;
+	padding-top: 35px;
+	background-color: #f4f3ee;
+	display: flex;
+}
+.main-advantages img{
+	width: 43.5%;
+	height: 40%;
+	margin: 0 0 0 65px;
+}
+.main-advantages ul{
+	margin: 0 0 0 0;
+	list-style: none;
+	
+}
+.main-advantages li{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 35px;
+	color: #222222;
+	margin-top: 20px;
+	font-weight: 400;
+	margin: -5px 0 5px -15px;
+
+}
+
+.main-advantages li:first-child{
+	font-family: 'PT Serif', sans-serif;
+	font-size: 28px;
+	line-height: 33.6px;
+	color: #000000;
+	font-weight: 400;
+}
+
 
 @media screen and (max-width: 768px) {
 .main-header li:first-child,
