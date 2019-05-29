@@ -237,9 +237,91 @@ font-family: 'PT Serif', sans-serif;
 	margin-left: -35px;
 }
 .main-famous-customers__flex p {
-	margin: -45px 0 0 -15px;
+	margin: -45px 0px 50px -15px;
 	font-weight: 400;
 }
+.main-easy-dreams {
+	background-color: #f4f3ee;
+	width: 85%;
+	padding-bottom: 100px;
+
+}
+.main-easy-dreams__flex {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 80%;
+	margin-left: 75px;
+}
+.main-easy-dreams__flex img{
+	width: 275px;
+	height: 275px;
+
+}
+.main-easy-dreams p{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	line-height: 15.6px;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+	padding-top: 50px;
+}
+.main-easy-dreams h2{
+font-family: 'PT Serif', sans-serif;
+	font-size: 24px;
+	line-height: 31.2px;
+	color: #000000;
+	font-weight: 400;
+	text-align: center;
+	word-spacing: 0px;
+	margin-bottom: 50px;
+}
+.main-easy-dreams__flex p:nth-of-type(1){
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
+	color: #cd627d;
+	margin-top: -40px;
+}
+.main-easy-dreams__flex p:nth-of-type(2){
+	margin-top: -50px;
+}
+.contanier-button p{
+	font-family: 'PT Serif', sans-serif;
+	font-size: 28px;
+	line-height: 33.6px;
+	color: #000000;
+	font-weight: 400;
+	text-align: center;
+	word-spacing: 0px;
+	
+
+}
+.contanier-button a{
+	text-decoration: none;
+}
+.contanier-button a p {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	background-color: #cd627d;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 25px auto auto auto;
+	font-weight: 700;
+	height: 32px;
+	width: 236px; 
+	padding-top: 18px;
+	text-decoration: none;
+
+}
+.contanier-button a p:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
 
 @media screen and (max-width: 768px) {
 .main-header li:first-child,
