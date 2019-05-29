@@ -323,7 +323,8 @@ font-family: 'PT Serif', sans-serif;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px),
+ only screen and (max-device-width: 480px){
 .main-header li:first-child,
 .main-header li:last-child,
 .main-header li:nth-child(4){
@@ -405,8 +406,4 @@ width: 75%;
 	margin: 10px;
 }
 
-
-
-
 }
-
